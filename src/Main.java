@@ -54,11 +54,11 @@ public class Main {
         try {
             Queue<String> q2 = new QueueImpl<String>(5);
             q2.push("HOLA");
-            System.out.println(q.size());
+            System.out.println(q2.size());
             q2.push("DSA");
-            System.out.println(q.size());
+            System.out.println(q2.size());
             q2.push("MOLA!!!");
-            System.out.println(q.size());
+            System.out.println(q2.size());
 
             String s;
             while (q2.size() > 0) {

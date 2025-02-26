@@ -23,7 +23,7 @@ public class QueueImpl<E> implements Queue<E> {
         this.pos--;
     }
 
-    private void push(E e) throws FullQueueException {
+    public void push(E e) throws FullQueueException {
         if (Full()) throw new FullQueueException();
         elements[pos++] = e;
     }
